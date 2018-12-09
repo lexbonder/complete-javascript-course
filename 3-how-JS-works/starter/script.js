@@ -135,4 +135,3 @@ mike.logThis = john.logThis // method borrowing
 
 mike.logThis() // Logs mike object because context of 'this' becomes part of mike object
 
-
