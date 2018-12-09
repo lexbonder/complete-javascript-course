@@ -128,10 +128,9 @@ john.logThis();
 
 const mike = {
   name: 'Mike',
-  yearOfBirth: 1985
-}
+  yearOfBirth: 1985,
+};
 
-mike.logThis = john.logThis // method borrowing
+mike.logThis = john.logThis; // method borrowing
 
-mike.logThis() // Logs mike object because context of 'this' becomes part of mike object
-
+mike.logThis(); // Logs mike object because context of 'this' becomes part of mike object
